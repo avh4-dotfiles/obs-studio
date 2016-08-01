@@ -85,376 +85,26 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "muted": false,
-            "name": "Blank",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "items": []
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
             "hotkeys": {},
-            "id": "av_capture_input",
+            "id": "text_ft2_source",
             "mixers": 0,
             "muted": false,
-            "name": "Video Capture Device",
+            "name": "\"Today's code...\"",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device": "DJH6114P9RQG1HPA2",
-                "device_name": "FaceTime HD Camera"
+                "font": {
+                    "face": "Helvetica",
+                    "flags": 0,
+                    "size": 48,
+                    "style": "Regular"
+                },
+                "text": "Today's code is at"
             },
             "sync": 0,
             "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "display_capture",
-            "mixers": 0,
-            "muted": false,
-            "name": "Display Capture",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {},
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Browser": [],
-                "libobs.hide_scene_item.Display Capture": [],
-                "libobs.hide_scene_item.Elm Logo": [],
-                "libobs.hide_scene_item.Notes": [],
-                "libobs.hide_scene_item.Video Capture Device": [],
-                "libobs.show_scene_item.Browser": [],
-                "libobs.show_scene_item.Display Capture": [],
-                "libobs.show_scene_item.Elm Logo": [],
-                "libobs.show_scene_item.Notes": [],
-                "libobs.show_scene_item.Video Capture Device": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "muted": false,
-            "name": "Coding",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Notes",
-                        "pos": {
-                            "x": 916.0,
-                            "y": 576.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.8571428656578064,
-                            "y": 0.8595041036605835
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Elm Logo",
-                        "pos": {
-                            "x": 1012.0,
-                            "y": 316.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.19430692493915558,
-                            "y": 0.19454771280288696
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Browser",
-                        "pos": {
-                            "x": 899.0,
-                            "y": 242.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.26458331942558289,
-                            "y": 0.26460480690002441
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Video Capture Device",
-                        "pos": {
-                            "x": 851.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.38906249403953552,
-                            "y": 0.3888888955116272
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Display Capture",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.8779296875,
-                            "y": 0.87804877758026123
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Break background": [],
-                "libobs.hide_scene_item.Message - break": [],
-                "libobs.hide_scene_item.Music: Arpanauts": [],
-                "libobs.show_scene_item.Break background": [],
-                "libobs.show_scene_item.Message - break": [],
-                "libobs.show_scene_item.Music: Arpanauts": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "muted": false,
-            "name": "Break",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Break background",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.66666668653488159,
-                            "y": 0.66666668653488159
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Message - break",
-                        "pos": {
-                            "x": 113.0,
-                            "y": 401.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Music: Arpanauts",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 15,
-            "muted": true,
-            "name": "Pre show background",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "advanced": false,
-                "clear_on_media_end": false,
-                "local_file": "/Users/avh4/Documents/Streaming/Video Loops/Grey_203d_20Flourish_20background_20loop_20HD_20_SaveYouTube_com_.mp4",
-                "looping": true
-            },
-            "sync": 0,
-            "volume": 0.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 15,
-            "muted": false,
-            "name": "Music: Arpanauts",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "local_file": "/Users/avh4/Documents/Streaming/Music/Resistor Anthems/10 Arpanauts.mp3"
-            },
-            "sync": 0,
-            "volume": 0.31443202495574951
         },
         {
             "deinterlace_field_order": 0,
@@ -465,7 +115,7 @@
             "id": "text_ft2_source",
             "mixers": 0,
             "muted": false,
-            "name": "Message - break",
+            "name": "gist link",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -474,32 +124,10 @@
                 "font": {
                     "face": "Helvetica",
                     "flags": 0,
-                    "size": 144,
+                    "size": 96,
                     "style": "Regular"
                 },
-                "text": "On a short break"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "window_capture",
-            "mixers": 0,
-            "muted": false,
-            "name": "Browser",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "owner_name": "Google Chrome",
-                "window": 164407,
-                "window_name": "home"
+                "text": "https://git.io/v6er8"
             },
             "sync": 0,
             "volume": 1.0
@@ -513,13 +141,14 @@
             "id": "image_source",
             "mixers": 0,
             "muted": false,
-            "name": "Elm Logo",
+            "name": "Twitter",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/Users/avh4/Documents/Streaming/Elm Live/logo.png"
+                "file": "/Users/av/Documents/Streaming/Elm Live/Twitter-icon.png",
+                "unload": true
             },
             "sync": 0,
             "volume": 1.0
@@ -533,34 +162,7 @@
             "id": "text_ft2_source",
             "mixers": 0,
             "muted": false,
-            "name": "Notes",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "font": {
-                    "face": "Monaco",
-                    "flags": 0,
-                    "size": 24,
-                    "style": "Regular"
-                },
-                "from_file": true,
-                "text_file": "/Users/avh4/Movies/notes.txt"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_ft2_source",
-            "mixers": 0,
-            "muted": false,
-            "name": "Message - starting soon",
+            "name": "@avh4",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -572,7 +174,7 @@
                     "size": 96,
                     "style": "Regular"
                 },
-                "text": "The show is about to start..."
+                "text": "@avh4"
             },
             "sync": 0,
             "volume": 1.0
@@ -582,101 +184,23 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Message - starting soon": [],
-                "libobs.hide_scene_item.Music: Arpanauts": [],
-                "libobs.hide_scene_item.Pre show background": [],
-                "libobs.show_scene_item.Message - starting soon": [],
-                "libobs.show_scene_item.Music: Arpanauts": [],
-                "libobs.show_scene_item.Pre show background": []
-            },
-            "id": "scene",
+            "hotkeys": {},
+            "id": "text_ft2_source",
             "mixers": 0,
             "muted": false,
-            "name": "Pre show",
+            "name": "\"Thanks ...\"",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Pre show background",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Message - starting soon",
-                        "pos": {
-                            "x": 72.0,
-                            "y": 310.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Music: Arpanauts",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    }
-                ]
+                "font": {
+                    "face": "Helvetica",
+                    "flags": 0,
+                    "size": 110,
+                    "style": "Regular"
+                },
+                "text": "Thanks for watching!"
             },
             "sync": 0,
             "volume": 1.0
@@ -685,6 +209,30 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_filter",
+                    "mixers": 0,
+                    "muted": false,
+                    "name": "Color Correction",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "brightness": -0.51000000000000001,
+                        "contrast": -0.38,
+                        "gamma": 0.14999999999999999
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
             "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
@@ -695,14 +243,14 @@
             "id": "ffmpeg_source",
             "mixers": 15,
             "muted": true,
-            "name": "Break background",
+            "name": "End background",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
                 "clear_on_media_end": false,
-                "local_file": "/Users/avh4/Documents/Streaming/Video Loops/219201998.mov",
+                "local_file": "/Users/av/Documents/Streaming/Video Loops/beeple/membrane.mov",
                 "looping": true
             },
             "sync": 0,
@@ -863,7 +411,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -888,7 +436,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -913,7 +461,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -924,30 +472,6 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "filters": [
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "color_filter",
-                    "mixers": 0,
-                    "muted": false,
-                    "name": "Color Correction",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "brightness": -0.51000000000000001,
-                        "contrast": -0.38,
-                        "gamma": 0.14999999999999999
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                }
-            ],
             "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
@@ -958,14 +482,14 @@
             "id": "ffmpeg_source",
             "mixers": 15,
             "muted": true,
-            "name": "End background",
+            "name": "Break background",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
                 "clear_on_media_end": false,
-                "local_file": "/Users/avh4/Documents/Streaming/Video Loops/beeple/membrane.mov",
+                "local_file": "/Users/av/Documents/Streaming/Video Loops/219201998.mov",
                 "looping": true
             },
             "sync": 0,
@@ -976,23 +500,101 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "text_ft2_source",
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Message - starting soon": [],
+                "libobs.hide_scene_item.Music: Arpanauts": [],
+                "libobs.hide_scene_item.Pre show background": [],
+                "libobs.show_scene_item.Message - starting soon": [],
+                "libobs.show_scene_item.Music: Arpanauts": [],
+                "libobs.show_scene_item.Pre show background": []
+            },
+            "id": "scene",
             "mixers": 0,
             "muted": false,
-            "name": "\"Thanks ...\"",
+            "name": "Pre show",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "font": {
-                    "face": "Helvetica",
-                    "flags": 0,
-                    "size": 110,
-                    "style": "Regular"
-                },
-                "text": "Thanks for watching!"
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Pre show background",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Message - starting soon",
+                        "pos": {
+                            "x": 72.0,
+                            "y": 310.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Music: Arpanauts",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
             },
             "sync": 0,
             "volume": 1.0
@@ -1006,7 +608,7 @@
             "id": "text_ft2_source",
             "mixers": 0,
             "muted": false,
-            "name": "@avh4",
+            "name": "Message - starting soon",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1018,7 +620,34 @@
                     "size": 96,
                     "style": "Regular"
                 },
-                "text": "@avh4"
+                "text": "The show is about to start..."
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Notes",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "font": {
+                    "face": "Monaco",
+                    "flags": 0,
+                    "size": 24,
+                    "style": "Regular"
+                },
+                "from_file": true,
+                "text_file": "/Users/av/Documents/Streaming/Elm Live/notes.txt"
             },
             "sync": 0,
             "volume": 1.0
@@ -1032,14 +661,35 @@
             "id": "image_source",
             "mixers": 0,
             "muted": false,
-            "name": "Twitter",
+            "name": "Elm Logo",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/Users/avh4/Documents/Streaming/Elm Live/Twitter-icon.png",
-                "unload": true
+                "file": "/Users/av/Documents/Streaming/Elm Live/logo.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "muted": false,
+            "name": "Browser",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "owner_name": "Google Chrome",
+                "window": 1813,
+                "window_name": "home"
             },
             "sync": 0,
             "volume": 1.0
@@ -1053,7 +703,7 @@
             "id": "text_ft2_source",
             "mixers": 0,
             "muted": false,
-            "name": "gist link",
+            "name": "Message - break",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1062,10 +712,325 @@
                 "font": {
                     "face": "Helvetica",
                     "flags": 0,
-                    "size": 96,
+                    "size": 144,
                     "style": "Regular"
                 },
-                "text": "https://git.io/v6eLI"
+                "text": "On a short break"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 15,
+            "muted": false,
+            "name": "Music: Arpanauts",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "local_file": "/Users/av/Documents/Streaming/Music/Resistor Anthems/10 Arpanauts.mp3"
+            },
+            "sync": 0,
+            "volume": 0.2500469982624054
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 15,
+            "muted": true,
+            "name": "Pre show background",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "advanced": false,
+                "clear_on_media_end": false,
+                "local_file": "/Users/av/Documents/Streaming/Video Loops/Grey_203d_20Flourish_20background_20loop_20HD_20_SaveYouTube_com_.mp4",
+                "looping": true
+            },
+            "sync": 0,
+            "volume": 0.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Break background": [],
+                "libobs.hide_scene_item.Message - break": [],
+                "libobs.hide_scene_item.Music: Arpanauts": [],
+                "libobs.show_scene_item.Break background": [],
+                "libobs.show_scene_item.Message - break": [],
+                "libobs.show_scene_item.Music: Arpanauts": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Break",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Break background",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.66666668653488159,
+                            "y": 0.66666668653488159
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Message - break",
+                        "pos": {
+                            "x": 113.0,
+                            "y": 401.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Music: Arpanauts",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Browser": [],
+                "libobs.hide_scene_item.Display Capture": [],
+                "libobs.hide_scene_item.Elm Logo": [],
+                "libobs.hide_scene_item.Notes": [],
+                "libobs.hide_scene_item.Video Capture Device": [],
+                "libobs.show_scene_item.Browser": [],
+                "libobs.show_scene_item.Display Capture": [],
+                "libobs.show_scene_item.Elm Logo": [],
+                "libobs.show_scene_item.Notes": [],
+                "libobs.show_scene_item.Video Capture Device": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Coding",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Notes",
+                        "pos": {
+                            "x": 912.0,
+                            "y": 571.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.8571428656578064,
+                            "y": 0.8595041036605835
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Elm Logo",
+                        "pos": {
+                            "x": 1012.0,
+                            "y": 316.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.19430692493915558,
+                            "y": 0.19454771280288696
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Browser",
+                        "pos": {
+                            "x": 899.0,
+                            "y": 238.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.27489176392555237,
+                            "y": 0.27528089284896851
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Video Capture Device",
+                        "pos": {
+                            "x": 851.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.38906249403953552,
+                            "y": 0.3888888955116272
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Display Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.8779296875,
+                            "y": 0.87804877758026123
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
             },
             "sync": 0,
             "volume": 1.0
@@ -1076,22 +1041,57 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "text_ft2_source",
+            "id": "display_capture",
             "mixers": 0,
             "muted": false,
-            "name": "\"Today's code...\"",
+            "name": "Display Capture",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "av_capture_input",
+            "mixers": 0,
+            "muted": false,
+            "name": "Video Capture Device",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "font": {
-                    "face": "Helvetica",
-                    "flags": 0,
-                    "size": 48,
-                    "style": "Regular"
-                },
-                "text": "Today's code is at"
+                "device": "DJH6114P9RQG1HPA2",
+                "device_name": "FaceTime HD Camera"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Blank",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": []
             },
             "sync": 0,
             "volume": 1.0
